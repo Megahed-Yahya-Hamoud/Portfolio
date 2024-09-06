@@ -674,6 +674,11 @@ span {
 
 .projects-card h3 {
   font-size: 2rem;
+  font-weight: 800;
+  color: var(--main-color);
+  /* background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+  background-clip: text;
+  color: transparent; */
 }
 
 .projects-card p {
