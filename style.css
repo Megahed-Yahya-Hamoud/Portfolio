@@ -10,6 +10,7 @@
   --second-bg-color: #101010;
   --text-color: white;
   --main-color: #ea580c;
+  --main-linear:linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
 }
 html {
   /* font-size: 60%; */
@@ -76,14 +77,14 @@ body {
 }
 
 span {
-  background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+  background: var(--main-linear);
   background-clip: text;
   color: transparent;
   font-weight: 800;
 }
 
 .span-two {
-  background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+  background: var(--main-linear);
   background-clip: text;
   color: transparent;
   font-weight: 700;
@@ -120,7 +121,7 @@ span {
 
 .btn-header {
   color: aliceblue;
-  background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+  background: var(--main-linear);
   padding: 7px 20px;
   border-radius: 100px;
   font-weight: 600;
@@ -198,7 +199,7 @@ span {
   line-height: 1;
 }
 .title > span {
-  background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+  background: var(--main-linear);
   background-clip: text;
   color: transparent;
 }
@@ -269,7 +270,7 @@ span {
     line-height: 1;
   }
   .title > span {
-    background: linear-gradient(270deg, orange 10%, rgb(254, 15, 15) 100%);
+    background: var(--main-linear);
     background-clip: text;
     color: transparent;
   }
